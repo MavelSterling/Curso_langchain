@@ -1,0 +1,31 @@
+Estructura de Langchain
+
+- Se tiene disponible en pyhton y en JavaScript
+
+
+Claves:
+
+1. Conexión con modelos
+2. Conexión con datos
+3. Encadenamiento de procesos
+
+
+Fundamentos:
+
+Cadena de Langchain
+
+Datos -> Modelo de embedding -> Base de datos vectorial -> Prompt -> Pregunta humano -> LLM modelos -> Respuesta 
+
+Flujo para generar una respuesta con LangChain
+
+- Primero comenzamos con datos
+- Luego se convierten en numero con embebbing
+- Luego se guardan en una base de datos vectorial
+- A partir del guardado se crea un prompt para empezar a hacer preguntas
+- La pregunta al humano se combina con el promp y lo recibe un modelo de LLM (Large Lenguaje Model)
+- Esto ultimo es la que genera la respuesta.
+
+Ejemplo del procesmiento de datos:
+
+Datos -> Limpieza de datos -> Generación de resumen -> Selección de metadata -> FRagmentar
+
