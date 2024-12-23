@@ -27,5 +27,45 @@ Flujo para generar una respuesta con LangChain
 
 Ejemplo del procesmiento de datos:
 
-Datos -> Limpieza de datos -> Generación de resumen -> Selección de metadata -> FRagmentar
+Datos -> Limpieza de datos -> Generación de resumen -> Selección de metadata -> Fragmentar el texto -> Modelo de embedding -> Selección de base de datos vectorial
 
+Ejemplo de uso de LLM
+
+             Información de base vectorial -> Prompt -> LLM
+
+                         Diseño de memoria -> Prompt -> LLM
+
+            Petición al LLM por el humano -> Prompt -> LLM
+
+
+Se puede incrermentar el contexto con una memoria
+Se filtrar la información de acuerdo a la metadata
+
+https://github.com/langchain-ai/langchain
+
+https://python.langchain.com/docs/integrations/providers/
+
+
+Integraciones que existen:
+
+Tipos de document loaders
+
+https://python.langchain.com/docs/integrations/document_loaders/
+
+
+Tipo de Vector stores
+
+https://python.langchain.com/docs/integrations/vectorstores/
+
+Tipo de Embedding models
+
+https://python.langchain.com/docs/integrations/text_embedding/
+
+
+Tipo de Chat models 
+
+https://python.langchain.com/docs/integrations/chat/
+
+Tipo de retrievers
+
+https://python.langchain.com/docs/integrations/retrievers/
